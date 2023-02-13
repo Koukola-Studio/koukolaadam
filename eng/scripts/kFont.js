@@ -4,4 +4,4 @@ bodymovin.loadAnimation({
     loop: true,
     autoplay: true,
     path: 'koukolaFont.json'
-});
+})
