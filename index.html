@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Adam Koukola - Digital Graphic Designer</title>
     <link href="style.css" rel="stylesheet">
+    <link href="designsystem.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
     <script src="script.js"></script>
@@ -63,8 +64,36 @@
     <!--<p><span class="line"></span></p>-->
     <br><br><br><br><br>
 
+    <p class="subtitlePortfolio">*Zkus nové filtry! Třeba lépe najdeš právě to, co hledáš ;-)</p>
+
+    <div class="filters">
+        <script src="buttonFilter.js"></script>
+        <div id="filter">
+            <div class="filterButton action">
+                <div class="checkbox">
+                    <label><input type="checkbox" rel="visualIdentity" onchange="change()" /><span>Vizuální Identita</span></label>
+                </div>
+            </div>
+            <div class="filterButton action">
+                <div class="checkbox">
+                    <label><input type="checkbox" rel="typography" onchange="change()" /><span>Typografie</span></label>
+                </div>
+            </div>
+            <div class="filterButton action">
+                <div class="checkbox">
+                    <label><input type="checkbox" rel="logoDesign" onchange="change()" /><span>Logo Design</span></label>
+                </div>
+            </div>
+            <div class="filterButton action">
+                <div class="checkbox">
+                    <label><input type="checkbox" rel="ilustrace" onchange="change()" /><span>Ilustrace</span></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <div class="portfolioLine">
-    <a href="koukolafont/"><div class="blocks">
+    <div class="typography"><a href="koukolafont/"><div class="blocks">
 
         <div class="portImage" id="kFont"></div>
         <script src="scripts/lottie.js"></script>
@@ -75,8 +104,8 @@
         <p class="subtitlePortfolio">Bez detailu!</p>
         <p class="datePortfolio">Typografie, Branding</p>
         <!--1. 2. 2023-->
-    </div></a>
-    <a href="sumperskymajales"><div class="blocks">
+    </div></a></div>
+    <div class="logoDesign"><a href="sumperskymajales"><div class="blocks">
 
         <div class="portImage" id="majales"></div>
         <script src="scripts/lottie.js"></script>
@@ -87,8 +116,8 @@
         <p class="subtitlePortfolio">Detail je připraven!</p>
         <p class="datePortfolio">Logo design, Vizuální identita</p>
         <!--6. 10. 2022-->
-    </div></a>
-    <a href="pechakuchanight/"><div class="blocks">
+    </div></a></div>
+    <div class="visualIdentity"><a href="pechakuchanight/"><div class="blocks">
         <div class="portImage" id="pknT"></div>
         <script src="scripts/lottie.js"></script>
         <script src="scripts/pknT.js"></script>
@@ -98,8 +127,8 @@
         <p class="subtitlePortfolio">Detail je připraven!</p>
         <p class="datePortfolio">Vizuální identita, Branding</p>
         <!--13. 2. 2023-->
-    </div></a>
-    <a href="pechakuchanight/"><div class="blocks">
+    </div></a></div>
+    <div class="visualIdentity"><a href="pechakuchanight/"><div class="blocks">
         <!--<img src="../Images/PKN.png" alt="" id="PKN" class="portImage">-->
 
         <div class="portImage" id="pknB2"></div>
@@ -111,8 +140,8 @@
         <p class="subtitlePortfolio">Detail je připraven!</p>
         <p class="datePortfolio">Vizuální identita, Branding</p>
         <!--6. 12. 2022-->
-    </div></a>
-    <a href="cestovatelskyfestival"><div class="blocks">
+    </div></a></div>
+    <div class="visualIdentity"><a href="cestovatelskyfestival"><div class="blocks">
         <!--<img src="Images/CF.png" alt="" id="CF" class="portImage">-->
 
         <div class="portImage" id="tFestival2"></div>
@@ -125,8 +154,8 @@
         <p class="datePortfolio">Vizuální identita, Branding</p>
         <!--6. 12. 2022-->
     </div>
-    </a>
-    <a href="librity/"><div class="blocks">
+    </a></div>
+    <div class="logoDesign"><a href="librity/"><div class="blocks">
 
         <div class="portImage" id="librity"></div>
         <script src="scripts/lottie.js"></script>
@@ -137,8 +166,8 @@
         <p class="subtitlePortfolio">Detail je připraven!</p>
         <p class="datePortfolio">Vizuální identita, Branding</p>
         <!--5.1.2023-->
-    </div></a>
-    <a href="yumi/"><div class="blocks">
+    </div></a></div>
+    <div class="logoDesign"><a href="yumi/"><div class="blocks">
 
         <div class="portImage" id="yumi"></div>
         <script src="scripts/lottie.js"></script>
@@ -149,16 +178,15 @@
         <p class="subtitlePortfolio">Detail je připraven!</p>
         <p class="datePortfolio">Vizuální identita, Branding</p>
         <!--11.1.2023-->
-    </div></a>
+    </div></a></div>
 </div>
 
     <br>
-    <p><span class="line"></span></p>
+    <!--<p><span class="line"></span></p>-->
     <br>
     <h3>Již brzy:</h3>
-    <br>
     <div class="portfolioLine">
-        <a href="javascript:void(0)"><div class="blocks">
+        <div class="logoDesign"><a href="javascript:void(0)"><div class="blocks">
             <div class="portImage" id="prohike"></div>
             <script src="scripts/lottie.js"></script>
             <script src="scripts/prohike.js"></script>
@@ -168,8 +196,8 @@
             <p class="subtitlePortfolio">Detail již brzy!</p>
             <p class="datePortfolio">Vizuální identita</p>
             <!--10. 2. 2023-->
-        </div></a>
-        <a href="javascript:void(0)"><div class="blocks">
+        </div></a></div>
+        <div class="logoDesign"><a href="javascript:void(0)"><div class="blocks">
 
             <div class="portImage" id="hamplPhotography"></div>
             <script src="scripts/lottie.js"></script>
@@ -180,8 +208,8 @@
             <p class="subtitlePortfolio">Detail již brzy!</p>
             <p class="datePortfolio">Vizuální identita, Branding</p>
             <!--22. 1. 2023-->
-        </div></a>
-        <a href="javascript:void(0)"><div class="blocks">
+        </div></a></div>
+        <div class="logoDesign"><a href="javascript:void(0)"><div class="blocks">
             <!--<img src="../Images/Signal.png" alt="" id="signal" class="portImage">-->
 
             <div class="portImage" id="signalC"></div>
@@ -194,8 +222,8 @@
             <p class="datePortfolio">Logo design</p>
             <!--20. 6. 2022-->
         </div>
-        </a>
-        <a href="javascript:void(0)"><div class="blocks">
+        </a></div>
+        <div class="logoDesign"><a href="javascript:void(0)"><div class="blocks">
 
             <div class="portImage" id="UAP"></div>
             <script src="scripts/lottie.js"></script>
@@ -207,16 +235,16 @@
             <p class="datePortfolio">Logo design, Vizuální identita, Branding</p>
             <!--23. 5. 2022-->
         </div>
-        </a>
+        </a></div>
     </div>
     </div>
 
             <br>
-            <p><span class="line"></span></p>
+            <!--<p><span class="line"></span></p>-->
 
     <footer>
         <p>Navrženo a nakódováno Adamem. :D</p>
-        <p>©2022 , Koukola Adam</p>
+        <p>©2023 , Koukola Adam</p>
     </footer>
 </div>
 

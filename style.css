@@ -210,6 +210,7 @@ h3{
 .portfolioLine{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+    padding-top: 30px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
@@ -240,6 +241,12 @@ h3{
     font-size: 1.1em;
     text-align: justify;
     color: #ababab;
+}
+subtitleFiltry{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    color: #000000;
 }
 .datePortfolio{
     font-family: 'Space Grotesk', sans-serif;
@@ -480,6 +487,11 @@ footer{
         text-align: justify;
         color: #ababab;
     }
+    subtitleFiltry{
+        font-size: 1em;
+        text-align: justify;
+        color: #000000;
+    }
     .datePortfolio{
         color: #ababab;
     }
@@ -692,6 +704,11 @@ footer{
         font-size: 1.25em;
         text-align: justify;
         color: #ababab;
+    }
+    subtitleFiltry{
+        font-size: 1.25em;
+        text-align: justify;
+        color: #000000;
     }
     .projectPortfolio{
         font-size: 1.25em;
@@ -936,6 +953,11 @@ footer{
         font-size: 1em;
         text-align: justify;
         color: #ababab;
+    }
+    subtitleFiltry{
+        font-size: 1em;
+        text-align: justify;
+        color: #000000;
     }
     .projectPortfolio{
         font-size: 1em;

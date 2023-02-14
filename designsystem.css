@@ -1,0 +1,47 @@
+.filterButton{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /*background-color: #f3f3f3;*/
+    color: #f3f3f3;
+    border: 2.4px solid #080c12;
+    overflow: hidden;
+    float: left;
+    transition: 200ms;
+    touch-action: none;
+
+}
+
+.filterButton label {
+    float: left; line-height: 4.0em;
+    width: 12.0em; height: 4.0em;
+    transition: 200ms;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.filterButton label span {
+    text-align: center;
+    display: block;
+    transition: 200ms;
+}
+
+.filterButton label input {
+    position: absolute;
+    display: none;
+    color: black;
+    transition: 200ms;
+    touch-action: none;
+}
+/* selects all of the text within the input element and changes the color of the text */
+.filterButton label input + span{color: #080c12; transition: 200ms; font-weight: 600; font-family: 'Space Grotesk', sans-serif;}
+
+
+/* This will declare how a selected input will look giving generic properties */
+.filterButton input:checked + span {
+    color: white;
+    background-color: #080c12;
+    transition: 200ms;
+}
