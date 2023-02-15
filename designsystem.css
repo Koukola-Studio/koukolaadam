@@ -45,3 +45,21 @@
     background-color: #080c12;
     transition: 200ms;
 }
+
+#mShort{
+    display: none;
+    background-color: #63157F;
+}
+#mLong{
+    display: block;
+    background-color: #63157F;
+}
+
+@media (max-width: 800px) {
+    #mShort{
+        display: block;
+    }
+    #mLong{
+        display: none;
+    }
+}
