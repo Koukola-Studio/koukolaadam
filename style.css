@@ -1056,3 +1056,20 @@ footer{
 #pknT{
     background-color: #F8F8F8;
 }
+
+.linesMobile{
+    width: 100%;
+    display: none;
+}
+.linesWeb{
+    width: 100%;
+    display: block;
+}
+@media (max-width: 1024px){
+    .linesWeb{
+        display: none;
+    }
+    .linesMobile{
+        display: block;
+    }
+}
