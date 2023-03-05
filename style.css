@@ -260,6 +260,9 @@ subtitleFiltry{
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+.imagePortfolio{
+    width: 100%;
+}
 
 .card img {
     object-fit: cover;
