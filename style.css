@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 body{
     margin: 55px;
     background-color: white;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .line{
     width: 100%;
@@ -152,14 +151,16 @@ h3{
     margin-top: auto;
     margin-bottom: auto;
 }
-#mainTitle{
-    font-weight: 400;
-    font-family: 'Lexend', sans-serif;
+.mainTitle{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
 }
 #nextMainTitle{
     color: #ababab;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.15em;
+    font-weight: 400;
 }
 #sideTitle{
     font-weight: 200;
@@ -246,6 +247,9 @@ h3{
 }
 .titlePortfolio{
     color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1;
 }
 .projectPortfolio{
     color: black;
@@ -313,7 +317,7 @@ footer{
     margin: 25px 50px 25px 50px;
 }
 .name{
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 .position{
@@ -457,9 +461,7 @@ footer{
         width: 50%;
         text-align: justify;
     }
-    #mainTitle{
-        font-weight: 400;
-        font-family: 'Lexend', sans-serif;
+    .mainTitle{
     }
     #nextMainTitle{
         color: #ababab;
@@ -505,7 +507,7 @@ footer{
     .titlePortfolio{
         font-size: 1.5em;
         font-weight: 400;
-        font-family: 'Lexend', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
     .subtitlePortfolio{
         font-size: 1em;
@@ -557,7 +559,6 @@ footer{
         margin: 50px;
     }
     .name{
-        font-family: 'Lexend', sans-serif;
         font-weight: 400;
     }
     .position{
@@ -650,9 +651,7 @@ footer{
         width: 100%;
         text-align: justify;
     }
-    #mainTitle{
-        font-weight: 400;
-        font-family: 'Lexend', sans-serif;
+    .mainTitle{
         font-size: 2.25em;
     }
     #nextMainTitle{
@@ -782,7 +781,6 @@ footer{
         margin: 50px;
     }
     .name{
-        font-family: 'Lexend', sans-serif;
         font-weight: 400;
     }
     .position{
@@ -827,7 +825,6 @@ footer{
         margin: 35px;
     }
     .name{
-        font-family: 'Lexend', sans-serif;
         font-weight: 400;
         font-size: 1.75em;
     }
@@ -911,9 +908,7 @@ footer{
         width: 100%;
         text-align: justify;
     }
-    #mainTitle{
-        font-weight: 400;
-        font-family: 'Lexend', sans-serif;
+    .mainTitle{
         font-size: 1.75em;
     }
     #nextMainTitle{
@@ -1031,7 +1026,6 @@ footer{
         margin: 35px;
     }
     .name{
-        font-family: 'Lexend', sans-serif;
         font-weight: 400;
         font-size: 1.75em;
     }
