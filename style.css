@@ -62,15 +62,29 @@ a:link{
 
 nav{
 }
-h2{
-    font-weight: 400;
+nav{
+    display: inline-flex;
+    width: 100%;
+}
+#links{
+    text-align: end;
+    width: 70%;
+}
+#logoNav{
+    width: 30%;
+}
+#logoKoukola{
+    width: 50px;
+    filter: invert(100%);
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 h3{
     font-weight: 400;
     font-size: 1.5em;
-}
-#links{
-    text-align: end;
 }
 .link{
     text-decoration: none;
@@ -374,13 +388,19 @@ footer{
     /*NAV BAR*/
 
     nav{
-        width: 97%;
-    }
-    h2{
-        font-weight: 400;
+        display: block;
+        width: 100%;
     }
     #links{
-        text-align: end;
+        text-align: left;
+        margin-top: 50px;
+        width: 100%;
+    }
+    #logoNav{
+        width: 100%;
+    }
+    #logoKoukola{
+        width: 40px;
     }
     .link{
         text-decoration: none;
@@ -579,6 +599,7 @@ footer{
     }
     #links{
         text-align: left;
+        margin-top: 35px;
     }
     .link{
         text-decoration: none;
