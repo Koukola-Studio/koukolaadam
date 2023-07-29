@@ -1389,3 +1389,12 @@ footer{
     transform-origin: bottom left;
     color: black;
 }
+
+.ratingLinks{
+    text-decoration: none;
+    color: #adadad;
+}
+.ratingLinks:hover{
+    text-decoration: line-through;
+    color: #ffffff;
+}
