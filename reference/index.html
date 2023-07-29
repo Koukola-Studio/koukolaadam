@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adam Koukola - Reference</title>
+  <link href="../styleProject.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+  <script src="../script.js"></script>
+</head>
+<body onload="myFunction()">
+<div id="myDiv">
+
+<div id="landingPage">
+  <nav>
+
+    <script>
+
+      let historie = "";
+
+      function linky(){
+        if (document.referrer === "https://koukolaadam.com/reference/") {
+          historie = "../";
+        }
+        else {
+          if (document.referrer === "https://koukolaadam.com/eng/reference/") {
+            historie = "../";
+          }
+          else {
+            historie = document.referrer;
+          }
+        }
+      }
+
+      linky();
+
+      document.write('<a href="' + historie + '" id="homeLink"><h2>Jít zpět.</h2></a>');
+
+      //document.write('<p>' + historie +'</p>');
+    </script>
+
+    <div id="links">
+      <a href="https://www.instagram.com/koukolaadam/" class="link" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/in/adam-koukola-78822a1a9/" class="link" target="_blank">Linked In</a>
+      <a href="javascript:void(0)" class="link">Reference</a>
+      <a href="../o-mne/" class="link">O mně</a>
+      <a href="../eng/reference" class="link">English</a>
+    </div>
+  </nav>
+  </div>
+
+  <div id="rectangles">
+    <!--<div class="rectangle"></div>-->
+  </div>
+
+  <div id="mainBlock">
+    <div id="mainBlockL">
+      <h1 class="mainTitle">Reference</h1>
+      <h2 class="nextMainTitle">— Adam Koukola</h2>
+    </div>
+    <div id="mainBlockR">
+    </div>
+  </div>
+
+  <div class="rating">
+    <div class="mainBlockL">
+      <h1 class="name">Matěj Schmalz</h1>
+      <h4 class="position">— Co-Founder - Librity</h4>
+    </div>
+    <div class="mainBlockR">
+      <h4 class="ratingText">— Adam nám pomáhal na projektu Librity vytvořit grafickou brand identitu a s jen základním zadáním dokázal vykouzlit skvěle návrhy! Adam má cit pro detail, dokáže dokonale navnímat potřeby klienta a vždy pohotově reaguje. Určitě mužů s klidným svědomím doporučit! (Projekt <a href="../librity/" class="ratingLinks">Librity</a>)</h4>
+    </div>
+  </div>
+
+  <div class="rating">
+    <div class="mainBlockL">
+      <h1 class="name">Peter Chalupiansky</h1>
+      <h4 class="position">— Founder - Klub Srdcařů</h4>
+    </div>
+    <div class="mainBlockR">
+      <h4 class="ratingText">— Adam je mladý a talentovaný grafik, který se s každým novým projektem posouvá dál. Pro akce našeho nadačního fondu vytvořil skvělou grafickou identitu a díky reklamním bannerům zvýšil prodeje knihy Odposlechnuto v Praze. Na spolupráci mě těší jeho spolehlivost i cit pro jednoduchý, moderní a elegantní design. (Projekt <a href="../pechakuchanight/" class="ratingLinks">Pecha Kucha Night</a> a <a href="../cestovatelskyfestival/" class="ratingLinks">Brandýský Cestovatelský Festival</a>)</h4>
+    </div>
+  </div>
+
+  <div class="rating">
+    <div class="mainBlockL">
+      <h1 class="name">Ladislava Jančíková</h1>
+      <h4 class="position">— Founder - Umělecká Agentura ŠLUS</h4>
+    </div>
+    <div class="mainBlockR">
+      <h4 class="ratingText">— Skvělá spolupráce :) pohotové jednání. Výborný cit pro design a vizuál. Určitě se ozveme s dalším projektem! (Projekt <a href="javascript:void(0)" class="ratingLinks">Umělecká Agentura ŠLUS</a>)</h4>
+    </div>
+  </div>
+
+  <div class="rating">
+    <div class="mainBlockL">
+      <h1 class="name">Hana Langerová</h1>
+      <h4 class="position">— Co-Founder - Librity</h4>
+    </div>
+    <div class="mainBlockR">
+      <h4 class="ratingText">— Adam je profesionál ve svém oboru, který je schopný řešit komplexní projekty pro různorodé klienty. Pomáhal mi vytvořit brand identitu a vždy měl skvělý proklientský přístup. Vážím si jeho schopnosti rychle a pohotově reagovat, perfektní komunikace a toho, že se nebojí přinést do své tvorby vlastní nápad a styl. S Adamem je radost pracovat a těším se na další spolupráci. (Projekt <a href="../librity/" class="ratingLinks">Librity</a>)</h4>
+    </div>
+  </div>
+
+
+
+<footer>
+  <p>Navrženo a nakódováno Adamem. :D</p>
+  <p>©2022 , Koukola Adam</p>
+</footer>
+</div>
+
+<div id="loader-wrapper">
+  <div class="portImage" id="logoK"></div>
+  <script src="lottie.js"></script>
+  <script src="logoK.js"></script>
+</div>
+
+</body>
+</html>
